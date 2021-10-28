@@ -218,11 +218,52 @@ header #logotipo{
 	color: #FDE092;
 	font-size: 64px;
 	font-family: "OpenSans-Light";
-	margin-top: 36px;
+	margin-top: 22px;
 }
 #estatisticas p small{
 	color: #fff;
 	font-size: 24px;
 	text-transform: uppercase;
 	display: block;
+}
+#call-to-action{
+	text-align: center;
+	margin-top: 105px;
+}
+#call-to-action h2{
+	color: #5E2799;
+	font-family: "OpenSans-Light";
+	font-size: 48px;
+	text-align: center;
+}
+#call-to-action hr{
+	border: #ffbc00 solid 4px;
+	width: 200px;
+	margin: 0 auto;
+	z-index: 2;
+}
+#call-to-action p{
+	margin-top: 60px;
+	margin-bottom: 40px;
+	color: #656565;
+}
+#call-to-action .btn{
+	border-radius: 0;
+	min-width: 164px;
+	height: 44px;
+	line-height: 32px;
+}
+#call-to-action .btn-roxo{
+    color: #fff;
+    background-color: #5E299A;
+    border-color: #5E299A;
+}
+#call-to-action .btn-amarelo{
+    color: #000;
+    background-color: #FDE192;
+    border-color: #FDE192;
+}
+#call-to-action .row-max-450{
+	margin: 0 auto;
+	max-width: 450px;
 }
