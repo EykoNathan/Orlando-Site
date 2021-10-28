@@ -1,9 +1,9 @@
-@font-face{
+@font-face {
 	font-family: "OpenSans";
 	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
 	font-size: 1em;
 }
-@font-face{
+@font-face {
 	font-family: "OpenSans-Light";
 	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
 	font-size: 1em;
@@ -12,8 +12,8 @@ header{
 	width: 100%;
 	height: 150px;
 	background-color: rgba(94, 41, 154, .8);
+	position: relative;
 	z-index: 2;
-    position: relative;
 }
 header .container{
 	position: relative;
@@ -173,5 +173,56 @@ header #logotipo{
 	font-family: "OpenSans";
 	font-weight: bold;
     margin-left: 10px;
-    text-shadow: none;
+}
+#news{
+	position: relative;
+	top: -110px;
+}
+#news h2{
+	color: #5E2799;
+	font-family: "OpenSans";
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+}
+#news hr{
+	border: #ffbc00 solid 4px;
+	width: 200px;
+	margin: 0 auto;
+	z-index: 2;
+}
+#news .thumbnails{
+	margin-top: 50px;
+}
+#news .thumbnails h3{
+	color: #5E299A;
+	font-size: 18px;
+	font-family: "OpenSans";
+	font-weight: bold;
+	margin-top: 15px;
+}
+#news .thumbnails time{
+	color: #A7A7A7;
+	font-size: 18px;
+	font-family: "OpenSans";
+	position: absolute;
+    margin-top: -10px;
+}
+#estatisticas{
+	width: 100%;
+	height: 200px;
+	background-color: #5E2799;
+	text-align: center;
+}
+#estatisticas P{
+	color: #FDE092;
+	font-size: 64px;
+	font-family: "OpenSans-Light";
+	margin-top: 36px;
+}
+#estatisticas p small{
+	color: #fff;
+	font-size: 24px;
+	text-transform: uppercase;
+	display: block;
 }
