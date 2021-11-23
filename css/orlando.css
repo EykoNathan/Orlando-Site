@@ -110,8 +110,9 @@ header #logotipo{
 }
 #menu{
 	position: absolute;
-    margin: 30px 560px;
-    width: 580px;
+    margin: 30px 509px;
+    width: 880px;
+	margin-left: 300px;
 }
 #menu li{
 	display: inline-block;
@@ -119,6 +120,11 @@ header #logotipo{
 }
 #menu li.search{
 	width: 182px;
+	transition-timing-function: cubic-bezier(1, -.91, .91, 1);
+	transition-duration: 1s;
+}
+#menu li.search.ativo{
+	width: 252px;
 }
 #menu li.search input{
 	background-color: #5C2D90;
@@ -165,6 +171,11 @@ header #logotipo{
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
 	font-family: "OpenSans-Light";
 	margin-left: 50px;
+	transition: 1s;
+}
+#banner h1.efeito{
+	color: #5C2D90;
+	font-size: 8em;
 }
 #banner h1 small{
 	font-size: 32px;
@@ -193,6 +204,9 @@ header #logotipo{
 }
 #news .thumbnails{
 	margin-top: 50px;
+}
+#news .thumbnails .item-inner{
+	padding: 10px;
 }
 #news .thumbnails h3{
 	color: #5E299A;
@@ -415,5 +429,6 @@ footer .list-socials .fa-pinterest-p{
 	left: -2px;
 }
 footer .col-get-in-touch{
-	margin-left: -40px;
+	left: 895px;
+	position: absolute;
 }
